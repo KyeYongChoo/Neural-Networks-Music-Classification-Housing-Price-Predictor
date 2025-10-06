@@ -185,8 +185,6 @@ class MLP(nn.Module):
         else:
             return self.mlp_stack(x)
 
-
-
 # Define a dataset class to avoid redundant definitions
 class AudioDataset(Dataset):
     def __init__(self, X, y):
